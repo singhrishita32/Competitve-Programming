@@ -40,7 +40,7 @@ struct dsu{
 		
 	}
 	
-	int components()
+	void components()
 	{
 		int c=0;
 		for(int i=0;i<parent.size();i++)
